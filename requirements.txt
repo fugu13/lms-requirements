@@ -1,0 +1,282 @@
+FUNCTIONAL REQUIREMENTS
+Provide a detailed response for each of the mandatory requirements below.
+ 
+1.  Enrollment        
+1.1.	self-registration for courses, by internal and external users 
+1.2.	ability to offer and manage registration-based and ad hoc courses
+1.3.	ability for instructors and administrators to add course participants outside of the course registration (add/drop students, add/remove guests, etc...)
+1.4.	accurate and current class lists of students enrolled in a course
+1.5.	seamless integration with course enrollment
+1.6.	batch enrollment of students and instructors into courses
+1.6.1.	via direct text entry in the application
+1.6.2.	via upload of .csv or tab delimited text file
+
+2.	Content Creation & Dissemination
+2.1.	content repository, with ties to University Library collections
+2.1.1.	connection to ARES copyright management software to provide access to online reserve readings and library collections
+2.1.2.	ability to search library collections from within the application
+2.1.3.	integration with EZProxy to allow secured access to library collections by authenticated users
+2.2.	file management with ability to move and share files once uploaded
+2.2.1.	ability to share documents and files with other courses and users
+2.2.2.	ability for users to collaborate on authoring of documents
+2.2.3.	revision tracking of files, with ability to revert to previous version(s). Instructors will be able to control which user roles are able to see previous versions, or if only the latest version is available.
+2.2.4.	course files can be hidden and/or made unavailable by instructors
+2.2.5.	content area in which student users can add and manage files
+2.3.	a robust rich text editor that:
+2.3.1.	supports flexible content authoring, html, and formulae directly within content areas of the LMS application
+2.3.2.	allows users to create and edit content directly in the LMS
+2.3.3.	provides an upload/import utility to add content from standard file formats, including: Microsoft Word, Powerpoint, etc...
+2.3.4.	provides full functionality in all modern browsers
+2.3.5.	stores revisions of edits, with the ability to track which user(s) performed edits, and to restore the content to previous versions if needed.
+2.3.6.	stores drafts of edits, to prevent lost work by users who are editing
+2.3.7.	provides an integrated spell check utility
+2.4.	support for multiple types of media and file types, and the ability to upload and embed media within content using the rich text editor. Specify where uploaded content is stored and processed, and how access to that content is managed. Also, describe the method of storing the originally uploaded file in addition to any transcoded or converted formats used by the system.
+2.5.	course content can be hidden and released by the instructor
+2.5.1.	adaptive and selective release of course content based on users, groups, dates, course activity, grades, instructor intervention, etc.
+2.5.2.	
+2.6.	ability to search within the LMS
+2.6.1.	information about courses (course description, availability, etc…)
+2.6.2.	information about programs or departments
+2.6.3.	information within courses
+2.6.3.1.	syllabus
+2.6.3.2.	assignments
+2.6.3.3.	discussions
+2.6.3.4.	other course content
+2.7.	ability to copy courses and specific course components (i.e. individual quizzes or pieces of content), as well as the ability to copy components within and between courses.
+2.8.	ability to author online presentations, audio, and video files for use within the LMS, as well as for downloading and reuse in other contexts.
+2.9.	provision of customizable user profiles
+2.9.1.	users can add profile image(s), links, text, and other content
+2.9.2.	users can restrict access to their profile
+2.9.3.	users can report inappropriate profile images and content, and instructors or administrators can block inappropriate profile content
+2.9.4.	Users can create a profile at the LMS level (to be shared amongst multiple courses)
+2.10.	ability to copy course structure and settings into additional versions of a course
+2.11.	ability to archive and export courses in a format that is also usable outside of the application, including course content, communications, grades, enrollment, activity data, and other data for use in documenting previous courses
+2.12.	ability to import courses, including course content, communications, grades, enrollment, activity data, and other data.
+2.13.	provision of a utility for course template building, which is available to administrators, instructors, and coordinators at the faculty- or program- level. Additionally, provision of the ability to share course templates.
+2.14.	provision of a utility to create and manage numerous courses at once, including:
+2.14.1.	batch course creation (with option of selecting template(s))
+2.14.2.	insertion of content
+2.14.3.	extraction of data
+2.14.4.	batch updating of courses using a template
+2.15.	provision of mobile solution that supports diverse devices, including iOS, Android, BlackBerry, and other mobile device platforms
+2.16.	webcasting utility that enables lecture capture and live or on demand streaming
+2.17.	ability to provide links to internal/external websites, both within content and in the navigation menus for a course, with ability to control the behaviour of the link (opening a new window/tab, replacing a frame within the page, embedding or opening linked media, etc...)
+2.18.	provision of a glossary function (includes images, links), with ability to search the glossary. Specified user roles should be able to easily edit the glossary.
+2.19.	provision of a FAQ (frequently asked questions) tool for use within courses
+2.20.	provision of a built-in blogging function available at the program and LMS level, and integration with external blogging tools (syndication of external content via RSS feeds into a course site within the application)
+2.21.	provision of or integration with a wiki function
+2.22.	provision of ePortfolios, available at the program and LMS level, for all users
+2.22.1.	users can define which portions of the ePortfolio are visible to various users (public, guest, private, etc...)
+2.22.2.	users can create multiple views of their ePortfolio, defining which content is to be included 
+2.22.3.	users can provide links to their ePortfolio content for external visitors
+2.22.4.	users can extract their entire ePortfolio in a format that can be reused outside of the LMS application.
+2.22.5.	users can define who can comment on their ePortfolio, and can moderate any comments that are posted to it.
+
+3.	Learning Interactions
+3.1.	easy to customize a course, to implement an instructor’s effective course design
+3.1.1.	navigation and layout of course are customizable
+3.1.2.	templates for faculty/department look and feel
+3.2.	flexible user roles (instructor, TA, administrator, student, guest, etc…)
+3.2.1.	ability to assign abilities to each role, such as being able to only grade specific assignments or access specific portions of the course content or subsets of students’ assignments
+3.3.	integrated synchronous communication tools as included and native components of the LMS application, including:
+3.3.1.	chat
+3.3.2.	audio conferencing
+3.3.3.	video conferencing
+3.3.4.	online meetings
+3.3.5.	option for sessions to be recorded, archived, and reviewed by users who have been granted access
+3.3.6.	ability to have individual sessions, groups within a class, an entire class, multiple sections of the same course, and sessions outside of the scope of a class or course.
+3.3.7.	Ability for student users to set up their own meetings and audio/visual conferencing sessions.
+3.4.	integrated asynchronous communication tools, including:
+3.4.1.	email
+3.4.1.1.	users can define which email address(es) they prefer to use
+3.4.1.2.	emails sent through the LMS application will be archived as part of the course content, and access to that archive will be managed by the application.
+3.4.1.3.	responses to emails sent by the application will also be managed and archived by the application.
+3.4.1.4.	users can elect to keep their email address private or make it available to others in the course. 
+3.4.2.	discussion board
+3.4.2.1.	ability for instructors and students to create new threads
+3.4.2.2.	ability to quickly find new posts within a discussion (and at a course level)
+3.4.2.3.	ability to quickly find new responses to posts within a discussion (and at a course level)
+3.4.2.4.	ability to be notified of new responses to a user’s posts, either through the LMS, via email, or by other means.
+3.4.2.5.	ability to use the WYSIWYG or rich text editor on discussion posts and responses, as well as attaching and embedding various types of media
+3.4.2.6.	ability to assign grades to discussion posts and responses, with rubric available to describe expectations
+3.4.2.7.	ability to control permissions for users within the discussion, whether students can create new discussion boards, topics and threads
+3.4.2.8.	gradable discussions, and integration with the grade management feature of the application. provision of a rubric to describe expectations of participants
+3.4.2.9.	“sticky” topics within a discussion, for important topics
+3.4.2.10.	private discussions - ability for groups to have discussions separate from the entire enrolled class
+3.4.2.11.	ability to close discussion boards, topics and threads for comments
+3.4.2.12.	ability to control editing of gradable posts
+3.4.3.	instant messaging
+3.4.4.	notifications and messages within the LMS
+3.4.4.1.	notifications should be configurable by users for each course
+3.4.4.2.	notifications should be configurable for specific parts of a course (entire discussion board, subscribed threads within a discussion board, responses to a user’s posts, etc...)
+3.4.4.3.	status window of currently online: List of current active users in the course, connected to IM and visible on each page of the course site. 
+3.4.4.4.	notifications of assignment reminders and due dates sent by email and customizable by the user 
+3.5.	calendar / scheduling feature
+3.5.1.	inclusion of a calendar/schedule feature integrated with course tools (i.e. multiple viewing options, personal, course and institutional events available)
+3.5.2.	tool(s) to support scheduling of events such as office hours, meeting times, appointments with students, etc...
+3.5.3.	ability to export or subscribe to the calendar using common calendar applications, with iCal .ics subscriptions available for each course
+3.6.	ability to effectively search content from all of a student’s courses, including previously completed courses
+3.7.	ability to integrate commonly used social networking platforms
+3.8.	Student Signup system
+3.8.1.	Ability for students to rank choices amongst several possibilities
+3.8.2.	Ability for students to change rankings and choices up until the cutoff date
+3.8.3.	Instructor can automatically create groups and/or assign students based on student rankings/choices
+3.9.	support for team and class collaborations
+3.9.1.	group workspaces
+3.9.1.1.	Includes both synchronous and asynchronous communication tools
+3.9.2.	randomized grouping
+3.9.3.	update of groups when new enrolments occur
+3.9.4.	ability for groups to share information and content
+3.9.5.	ability for users to belong to multiple groups within a course
+3.9.6.	automatic group creation based on Lecture, Lab, Tutorial
+3.9.7.	ability for student-created groups 
+3.10.	integration with third party synchronous communication tools such as Elluminate.
+3.11.	ability to manage peer review process
+3.11.1.	students upload files, receive random document, give feedback and receive feedback on their document anonymously
+3.11.2.	all documents are recorded
+3.11.3.	instructor has the ability to supervise the process, assign papers, etc.
+
+4.	Assessment & Evaluation
+4.1.	comprehensive yet flexible grade management function
+4.1.1.	batch uploading of grades
+4.1.1.1.	download/upload grades
+4.1.1.2.	upload scantron files of student grades
+4.1.1.3.	modify grades in another program offline
+4.1.2.	efficiently manage and access grades with minimum mouse clicks and page views
+4.1.3.	ability to view all grades for a single student in a course
+4.1.4.	ability to view all grades for a single assignment in a course
+4.1.5.	ability for instructors to add multiple columns
+4.1.6.	ability to copy column/ column settings
+4.1.7.	ability to use calculated columns, with calculation formula customized by instructor
+4.1.8.	ability to use and display different types of grades (letter, percent, pass/fail)
+4.1.9.	ability to sort and filter students 
+4.1.9.1.	Sort based on groups, lecture, labs, tutorials
+4.1.9.2.	Set default filter by user (eg. Course with several TAs, each TA sees their students in the grade center)
+4.1.10.	ability to view grades in a student meeting context, providing additional privacy around student names and identities when viewing the gradebook (privacy mode to prevent accidental disclosure of student grades)
+4.1.11.	inclusion of a grading utility that allows you to weigh, combine, and summarize other scores 
+4.1.12.	ability to assign extra credits and excuse assignments for specified students
+4.1.13.	batch download assignment files
+4.1.14.	Ability to define letter grade values within each course
+4.1.15.	Email students from the grade center
+4.1.16.	Ability to designate ungraded items in the grade center
+4.1.17.	Attach feedback to non-submission style assessment items
+4.1.18.	Show students multiple formats of their grade (letter, percentage) 
+4.2.	tests and surveys
+4.2.1.	must be able to include mathematical symbols, chemical formulae, images etc...
+4.2.2.	ability to collect anonymous feedback from students
+4.2.3.	ability to place time restrictions on exams (start/end times, maximum duration, etc...) (Force submit at end of time)
+4.2.4.	secure online exam or essay writing
+4.2.5.	ability for instructors to selectively re-open assessment items for specific students
+4.2.6.	ability for instructors to allow multiple attempts by specified students, or for all users
+4.2.7.	ability to control presentation of questions - one at a time, or grouped into pages
+4.2.8.	ability to control presentation of feedback to question responses - provide answer and feedback immediately, at end of exam, or not at all.
+4.2.8.1.	At the end of the exam, control the release of feedback until all students are done.
+4.2.9.	ability to print questions and/or exams in a readable format for accommodation of students with special needs
+4.2.10.	ability to restrict printing of questions and/or exams for security
+4.2.11.	ability to store questions and items in an exam question databank
+4.2.11.1.	ability to share items in the databank with other instructors
+4.2.11.2.	ability to update questions within the databank and have the option of updating exams using the question
+4.2.11.3.	ability to update a question in an exam, and have the option of updating the question databank
+4.2.11.4.	ability to import and export items from the question databank
+4.2.11.5.	test question bank with ability to randomly generate unique tests for each student, as well as randomizing the order of questions presented
+4.2.11.6.	Ability to import multiple choice questions from Word into an exam bank.
+4.2.12.	provide specific feedback to answers
+4.2.13.	ability to send customized feedback to select users
+4.2.14.	ability to provide feedback to students, including edited copies of student work
+4.3.	provision of learning outcome tracking capability integrated with assessment tools, with the ability to push learning outcomes and rubrics up and down a hierarchy (within a course, program, faculty, etc...)
+4.4.	support for repeated or iterated submissions of student work to a centralized area
+4.5.	support for academic integrity
+4.6.	ability to restrict access to onlineI assessment by time, location, and/or IP address as well as by user
+4.7.	support for rubric assessments
+4.8.	ability to automatically transfer grades and comments from rubrics to the grade book
+4.9.	support for grading large classes (workflow tools to support efficient entering and management of grades for hundreds of students)
+4.10.	support for group projects
+4.10.1.	ability to create and modify group contracts
+4.11.	provision of user tracking capabilities
+4.12.	provision of utility to identify students who might be falling behind
+4.13.	support and documentation (technical and pedagogical, training on the new system, etc...)
+4.14.	assignments
+4.14.1.	uploading assignments, including large media files such as high resolution images or videos
+4.14.2.	batch download of assignment files
+4.14.3.	ability to provide feedback to students, including edited copies of student work
+4.14.4.	peer feedback/evaluation process
+4.14.5.	Option of email notification to instructor when student assignment has been submitted with time and date stamp
+4.14.6.	Option of email notification to students when assignment has been graded
+4.14.7.	group assignments
+4.14.7.1.	Group view in the grade book
+4.15.	ability for students to view grades and feedback
+4.16.	ability to build and manage an ePortfolio to document and track progress and learning
+4.16.1.	Available at course, program and LMS level.
+4.16.2.	Ability to download eportfolio content into a usable format outside of the LMS.
+
+5.	Academic Program Administration
+5.1.	instructional design wizards to assist in the course development process (i.e., course design or activity patterns, instructional design models, etc..)
+5.2.	reusable course modules
+5.3.	consistent branding of courses within a faculty or program
+5.4.	support for professional development and training of staff, including performance tracking and certification
+5.5.	scalable to enable efficient management of large classes
+5.5.1.	manageable grading system
+5.5.2.	communication tools (email, discussion board, etc)
+5.5.3.	division of students into groups
+5.6.	ability for students to monitor their own progress through a degree program
+5.7.	ability for administrators to monitor students’ progress through a degree program
+5.8.	integration of communication and information about various activities within a faculty, program, or campus
+
+6.	General application requirements
+6.1.	calendar that provides integration with other systems (.ics subscription, etc…)
+6.2.	support for automatic email forwarding to external email addresses
+6.3.	support for notifications such as ability to receive news, upcoming assignment dates and course updates through the LMS application, via email, or using other means if available
+6.4.	full functionality of the LMS application is provided to users of any current modern browser (Firefox, Chrome, Safari, Internet Explorer, Opera), and on current computer operating systems (Windows 7, MacOSX 10.7). Support for other browsers and operating systems may be necessary for some users.
+6.5.	‘What’s New’: Status updates updated for each user when they access a course. On the homepage, a content pane shows links to: new discussion board posts, new content that has been added since last access, new grades, group pages with new items, etc. 
+
+7.	Accessibility
+7.1.	ability for users with disabilities to access the LMS application and access full functionality
+7.2.	multilingual support
+7.2.1.	can users select the language used by the software interface?
+7.2.2.	can the language used by the software interface be set on a course basis and user basis?
+7.2.3.	can content be provided in multiple languages?
+
+8.	Application Administration
+8.1.	support and documentation (technical and pedagogical, training on the new system, etc...)
+8.1.1.	how are support requests handled by the application?
+8.1.2.	how are feature requests handled by the application?
+8.2.	provision of application security (i.e. password protection, encryption, etc.)
+8.3.	ability to implement IP for authentication solutions
+8.4.	ability to define custom users types with granular rights
+8.5.	ability for instructors to view their courses as their students see them, and for administrators to see courses as instructors and students see them
+8.6.	ability to configure features system wide
+8.7.	support for localization without code modification
+8.8.	ability to customize look and feel of LMS to support unique branding of the client
+8.9.	ability to log, retrieve and audit system use, including errors
+8.10.	ability to connect with UofC login to enable single server login
+8.10.1.	integration with CAS authentication
+8.10.2.	integration with Active Directory
+
+TECHNICAL REQUIREMENTS
+Provide a detailed response for each of the mandatory requirements below.
+
+1.	Interoperability & Standards Compliance
+1.1.	Describe your LMS’s capability to integrate with external systems such as PeopleSoft in batch and real-time mode
+1.2.	Describe the Web Services and APIs supported by your LMS. How stable is the API, and how are changes to it managed? How is access to the API managed? Do you provide an SLA for the API component, for integration with third-party software?
+1.3.	List available software developer kits
+1.4.	Describe interoperability with any third party applications (i.e. Elluminate, Adobe Connect Presenter, Adobe Connect, ExamSoft, QuestionMark, Respondus, etc...)
+1.5.	What level of access to your LMS’ source code is available?
+
+2.	Recommended Infrastructure
+2.1.	Should the client elect to host the LMS in-house, describe the recommended server hardware and software specifications required to run the LMS in the university’s environment
+2.2.	Provide a network diagram that represents the infrastructure that should be in place to implement the solution
+2.3.	Identify any client hardware and software required to run your LMS
+2.4.	Identify supported browsers required to access your LMS, and any known software (such as older browsers, 3rd party software, antivirus, adblocking, etc...) that may have conflicts or degraded functionality if used with your application.
+
+3.	Respondent Hosting
+3.1.	Describe the infrastructure in place at the hosting datacenter including redundancy technologies
+3.2.	Describe how your solution scales to meet our stated growth
+3.3.	Describe your backup and restoration capabilities
+3.4.	Describe your failover capabilities and any disaster recovery options. include optional pricing in the Cost Considerations section
+3.5.	How are application, database, and supporting server and infrastructure resources provisioned during peak load?
+3.6.	Describe how the infrastructure is monitored and kept optimized, and how the status of your infrastructure is communicated to University staff. How can University staff report any issues they discover?
+3.7.	Identify your required maintenance schedule and impact to our system availability
+3.8.	What support charges would be incurred for evening, late night, weekend support?
+3.9.	How are changes to the hosted application managed? Can we choose when upgrades happen? Can we specify “no touch” dates where changes are locked out?
+3.10.	Identify network requirements to ensure proper access to the hosted LMS, both for on-campus users (campus network infrastructure requirements) and individual users who are connecting from off-campus
+3.11.	What is the process for increasing capacity to the application, should our needs grow faster than expected?
